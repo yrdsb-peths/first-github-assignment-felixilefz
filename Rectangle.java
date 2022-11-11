@@ -24,6 +24,14 @@ public class Rectangle
         return width;
     }
     
+    public void setHeight(int newHeight) {
+        height = newHeight;
+    }
+    
+    public void setWidth(int newWidth) {
+        width = newWidth;
+    }
+    
     public String toString()
     {
         return "Rectangle with width: " + width + " and height: " + height;
