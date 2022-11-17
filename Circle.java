@@ -1,5 +1,6 @@
 public class Circle
 {
+    // desktop github test
     private static final int DEFAULT_RADIUS = 10;
     private static final String DEFAULT_COLOR = "blue";
     
