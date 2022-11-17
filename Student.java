@@ -29,6 +29,10 @@ public class Student {
     public void setGPA(double theGPA) {
         gpa = theGPA;
     }
+    
+    public void setGrade(int grade) {
+        gradeLevel = grade;
+    }
 
     public String toString() {
         return firstName + " " + lastName + " is in grade: " + gradeLevel;
