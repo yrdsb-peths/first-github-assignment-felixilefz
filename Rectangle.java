@@ -2,12 +2,10 @@ public class Rectangle
 {
     private int width;
     private int height;
-    private static int count = 0;
     
     public Rectangle(int rectWidth, int rectHeight) {
         width = rectWidth;
         height = rectHeight;
-        count ++;
     }
     
     public int getArea() {
